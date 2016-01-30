@@ -77,3 +77,11 @@ p, h1 {
 .date {
   color: grey;
 }
+
+a:link {
+  color: rgb(0, 0, 255)
+}
+
+a:visited {
+  color: rgb(135, 0, 255)
+}
