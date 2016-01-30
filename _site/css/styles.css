@@ -1,9 +1,13 @@
 body {
   /*background: url("http://aurorafoxartscenter.org/cms/wp-content/uploads/2015/01/EMPTY-STAGE-2.jpg");*/
-  /*background-size: 100%;*/
+  background: url("http://www.onekingproductions.com/wp-content/uploads/2011/04/Genesis_Energy_Theatre_Seats_and_stage-1024x768.jpg");
+  background-size: cover;
   background-color: rgb(69, 69, 69);
 }
 
+/*p {
+  color: white;
+}*/
 p, h1 {
   /*background-color: rgba(0, 0, 0, 0.5);*/
   color: white;
@@ -11,6 +15,7 @@ p, h1 {
   margin-left: auto;
   margin-right: auto;
 }
+
 #playbill {
   float: left;
   margin: 10px;
@@ -34,13 +39,41 @@ p, h1 {
   font-weight: bolder;
 }
 
-#blog-title{
+.blog-title{
   text-align: center;
+  color: white;
   font-family: cursive;
 }
 
 .nav-item{
   list-style-type: none;
   text-align: center;
+  color: lightblue;
   font-family: serif;
+}
+
+#footer-contact {
+  position: relative;
+  top: auto;
+  left:auto;
+  /*right: auto;*/
+  background-color: rgba(150, 150, 150, 0.75);
+  color: black;
+  text-align: center;
+  width: 20%;
+
+}
+
+.spoiler {
+  color: black;
+  background-color: black;
+}
+
+.spoiler:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.date {
+  color: grey;
 }
