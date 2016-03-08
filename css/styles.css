@@ -16,6 +16,10 @@ p, h1 {
   margin: 10px;
 }
 
+.small-head{
+  color: white;
+}
+
 .speech {
   background-color: rgba(138, 138, 138, 0.5);
   color: white;
